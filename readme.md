@@ -1,6 +1,6 @@
 ### Env Variables
 
-##Add your config variables values in the config.env file in backend/config folder.
+### Add your config variables values in the config.env file in backend/config folder.
 
 PORT=4000
 DB_URI="mongodb://localhost:27017/E"
@@ -33,14 +33,18 @@ CLOUDINARY_API_SECRET= JhNTcdPuNr6_nYZ3xVYEQ8WnKoM
 ```
 cd frontend
 npm i
+npm start
 ```
 
 ### Install Dependencies (Backend)
 
 ```
+cd backend
 npm i
+npm run dev
 ```
-
+c
+...
 ### Seed Database
 
 Use the following commeand to put some dummy products in that database.
